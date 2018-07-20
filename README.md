@@ -57,36 +57,36 @@ public static final String SERVER_STORAGE = "C:/Users/SEU_PC/Desktop/serverStora
 
 | Comando 		| Descrição 													| Exemplo												|
 | ------------- | ------------------------------------------------------------- | ----------------------------------------------------- |
-| enter 		| Iniciar o servidor (por padrão inicia com o IP Localhost) 	| enter													|
-| open 			| Iniciar o servidor (por padrão inicia com o IP Localhost) 	| open													|
-| connect 		| Iniciar o servidor (por padrão inicia com o IP Localhost) 	| connect												|
-| start 		| Iniciar o servidor (por padrão inicia com o IP Localhost) 	| start													|
-| exit 			| Parar o servidor 												| exit													|
-| close 		| Parar o servidor 												| close 												|
-| disconnect 	| Parar o servidor 												| disconnect 											|
-| stop 			| Parar o servidor 												| stop													|
-| ping 			| Ping para cliente especifico 									| ping <ip>:<port>										|
-| show 			| Mostra lista do parametro passado								| show users <br/> show files <br/> show ping requests	|
-| refresh 		| Atualiza lista do parametro passado							| refresh userlist										|
+| enter 		| Iniciar o servidor (por padrão inicia com o IP Localhost) 	| `enter`													|
+| open 			| Iniciar o servidor (por padrão inicia com o IP Localhost) 	| `open`													|
+| connect 		| Iniciar o servidor (por padrão inicia com o IP Localhost) 	| `connect`												|
+| start 		| Iniciar o servidor (por padrão inicia com o IP Localhost) 	| `start`													|
+| exit 			| Parar o servidor 												| `exit`													|
+| close 		| Parar o servidor 												| `close` 												|
+| disconnect 	| Parar o servidor 												| `disconnect` 											|
+| stop 			| Parar o servidor 												| `stop`													|
+| ping 			| Ping para cliente especifico 									| `ping <ip>:<port>`										|
+| show 			| Mostra lista do parametro passado								| `show users` <br/> `show files` <br/> `show ping requests`	|
+| refresh 		| Atualiza lista do parametro passado							| `refresh userlist`										|
 
 
 #### Comandos Client
 
 | Comando 		| Descrição 														| Exemplo												|
 | ------------- | ----------------------------------------------------------------- | ----------------------------------------------------- |
-| enter 		| Iniciar o client 													| enter <name> <server_ip>								|
-| open 			| Iniciar o client 													| open <name> <server_ip>								|
-| connect 		| Iniciar o client 													| connect <name> <server_ip>							|
-| start 		| Iniciar o client 										 			| start <name> <server_ip>								|
-| exit 			| Parar o client 													| exit													|
-| close 		| Parar o client 													| close 												|
-| disconnect 	| Parar o client 													| disconnect 											|
-| stop 			| Parar o client 													| stop													|
-| ping 			| Ping para client/server especifico ou server passado ao iniciar 	| ping <ip>:<port> <br/> ping server					|
-| list 			| Atualiza lista do parametro passado							 	| list users <br/> list files 							|
-| get			| Download de arquivo especificado (id do arquivo no 'list files' e salva através de FileChooser)	| get <file_id>											|
-| download 		| Download de arquivo especificado (id do arquivo no 'list files' e salva através de FileChooser)	| download <file_id>									|
-| put			| Upload de arquivo especificado (FileChooser)						| get <file_id>											|
-| upload 		| Upload de arquivo especificado (FileChooser)						| download <file_id>									|
+| enter 		| Iniciar o client 													| `enter <name> <server_ip>`								|
+| open 			| Iniciar o client 													| `open <name> <server_ip>`								|
+| connect 		| Iniciar o client 													| `connect <name> <server_ip>`							|
+| start 		| Iniciar o client 										 			| `start <name> <server_ip>`								|
+| exit 			| Parar o client 													| `exit`													|
+| close 		| Parar o client 													| `close` 												|
+| disconnect 	| Parar o client 													| `disconnect` 											|
+| stop 			| Parar o client 													| `stop`													|
+| ping 			| Ping para client/server especifico ou server passado ao iniciar 	| `ping <ip>:<port>` <br/> `ping server`					|
+| list 			| Atualiza lista do parametro passado							 	| `list users` <br/> `list files` 							|
+| get			| Download de arquivo especificado (id do arquivo no 'list files' e salva através de FileChooser)	| `get <file_id>`											|
+| download 		| Download de arquivo especificado (id do arquivo no 'list files' e salva através de FileChooser)	| `download <file_id>`									|
+| put			| Upload de arquivo especificado (FileChooser)						| `get <file_id>`											|
+| upload 		| Upload de arquivo especificado (FileChooser)						| `download <file_id>`									|
 
 
