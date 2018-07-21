@@ -18,7 +18,7 @@ public class Const {
 	
 	public static final String DOWNLOAD_REGEX = "^(download|get)\\s[0-9]+$";
 	
-	public static final String UPLOAD_REGEX = "^(upload|put)\\s[0-9]+$";
+	public static final String UPLOAD_REGEX = "^(upload|put)$";
 	
 	
 	
